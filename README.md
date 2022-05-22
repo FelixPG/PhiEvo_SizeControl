@@ -173,6 +173,15 @@ To launch the evolution, simply run
 ```bash
 python run_evolution.py -m example_adaptation
 ```
+
+Specifically for the size control project, you can run 
+
+```bash
+python run_evolution.py -m sizecontrol
+```
+
+which contains modified versions of the main, utilities, integrator, initialization and init_history files to account for a time-varying cell volume.
+
 **Note:**  You can add the -c option (`./run_evolution.py -cm example_adaptation`) to delete a Seed that was created by a former run and prevents a new run to start. Be careful, a deleted seed cannot be recovered.
 
 If everything works correctly you should see the evolution starting. When an evolution is running it displays regularly updates of its current state in the terminal and a `STOP.txt` file is created at the root of the project. The purpose of the STOP file is to have a quick method to check on the current state of a run when it is launched as a background task. When the *STOP* file is deleted, the run stops.
