@@ -1,0 +1,15 @@
+ccode_dir
+/Users/felixproulx-giraldeau/Documents/GitHub/PhiEvo_SizeControl/phievo/CCodes
+
+cfile dictionary
+{'header': '/Users/felixproulx-giraldeau/Documents/GitHub/PhiEvo_SizeControl/phievo/CCodes/integrator_header.h', 'utilities': 'SizeControl/utilities_modif.c', 'geometry': '/Users/felixproulx-giraldeau/Documents/GitHub/PhiEvo_SizeControl/phievo/CCodes/linear_geometry.c', 'integrator': 'SizeControl/euler_integrator2.c', 'main': 'SizeControl/main_general_modif.c', 'fitness': 'SizeControl/fitness_sizecontrol_pareto.c', 'init_history': 'SizeControl/init_history_sizecontrol.c', 'input': 'SizeControl/input_sizecontrol.c'}
+
+prmt dictionary
+{'nstep': 50000, 'ncelltot': 1, 'nneighbor': 3, 'ntries': 10, 'dt': 0.05, 'npopulation': 50, 'ngeneration': 501, 'tgeneration': 1.0, 'noutput': 1, 'ninput': 2, 'freq_stat': 5, 'frac_mutate': 0.5, 'redo': 1, 'nseed': 30, 'firstseed': 0, 'multipro_level': 1, 'pareto': 1, 'npareto_functions': 2, 'rshare': 0.0, 'plot': 0, 'langevin_noise': 0, 'restart': {'activated': False, 'freq': 50}, 'stop_file': '/Users/felixproulx-giraldeau/Documents/GitHub/PhiEvo_SizeControl/SizeControl/STOP.txt'}
+
+ranges dictionary
+{'Species.degradation': 2.0, 'Species.diffusion': 0, 'TModule.rate': 6.0, 'TModule.basal': 1.0, 'CorePromoter.delay': 0, 'TFHill.hill': 10.0, 'TFHill.threshold': 3.0, 'PPI.association': 2.6666666666666665, 'PPI.disassociation': 4.0, 'Phosphorylation.rate': 2.0, 'Phosphorylation.hill': 5.0, 'Phosphorylation.threshold': 1.5, 'Phosphorylation.dephosphorylation': 2.0, 'Degradation.rate': 0.0}
+
+mutation dictionary
+{'random_gene()': 0.01, "random_gene('TF')": 0.01, "random_gene('Kinase')": 0, "random_gene('Ligand')": 0.0, "random_gene('Receptor')": 0.0, "random_Interaction('TFHill')": 0.002, "random_Interaction('PPI')": 0.002, "random_Interaction('Phosphorylation')": 0, "remove_Interaction('TFHill')": 0.005, "remove_Interaction('PPI')": 0.005, "remove_Interaction('CorePromoter')": 0.01, "remove_Interaction('Phosphorylation')": 0, "mutate_Node('Species')": 0.1, "mutate_Node('TFHill')": 0.1, "mutate_Node('CorePromoter')": 0.1, "mutate_Node('TModule')": 0.1, "mutate_Node('PPI')": 0.1, "mutate_Node('Phosphorylation')": 0, 'random_add_output()': 0.0, 'random_remove_output()': 0.0, 'random_change_output()': 0.0}
+

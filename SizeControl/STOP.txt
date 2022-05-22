@@ -1,0 +1,2 @@
+This is a STOP file.
+Deleting this file will stop the running evolution.
